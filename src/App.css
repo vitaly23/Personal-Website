@@ -1,17 +1,30 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #140934; /* Use your desired color here */
+  color: #ffffff; /* Optional: Set text color to white for better contrast */
+  height: 100vh; /* Optional: Set height to 100% of viewport height */
+  /* display: flex; 
+  justify-content: center; 
+  align-items: center;  */
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 13vmin;
+  /* height: 60%; Adjust height to remove 1 pixel from the bottom */
+  /* pointer-events: none; */
+  display: flex; /* Optional: Use flexbox for centering content */
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.App-navbar {
+  background-color: #140934; /* Use your desired color here */
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +39,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.footer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 @keyframes App-logo-spin {
