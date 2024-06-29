@@ -33,6 +33,8 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "src",
+    "public",
+    "build"
   ]
 }
